@@ -1,7 +1,7 @@
 {
-  "name": "my-vue-app",
+  "name": "zavac-docs",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,10 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.5.1",
+    "element-plus": "^2.4.1",
+    "pinia": "^2.1.7",
     "vue": "^3.3.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
+    "prettier": "^3.0.3",
+    "sass": "^1.69.5",
     "vite": "^4.4.5"
   }
 }
